@@ -2,15 +2,15 @@
 package main
 
 import (
-    "fmt"
-    "os"
+	"fmt"
+	"os"
 )
 
 func main() {
-    var aString, separator string // that's right I don't like the short s variable name, what of it?
-    for i:= 1; i < len(os.Args); i++ {
-        aString += separator + os.Args[i]
-        separator = " "
-    }
-    fmt.Println(aString)
+	var aString, separator string // that's right I don't like the short s variable name, what of it?
+	for i := 1; i < len(os.Args); i++ {
+		aString += separator + os.Args[i]
+		separator = " "
+	}
+	fmt.Println(aString)
 }
