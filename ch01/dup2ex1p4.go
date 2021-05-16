@@ -32,6 +32,7 @@ func main() {
 }
 
 func in(needle string, strings []string) bool {
+	//Do not like this looking at alternative solutions
 	for _, aString := range strings {
 		if needle == aString {
 			return true
