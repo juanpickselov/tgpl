@@ -1,4 +1,5 @@
 // Dup2 prints count, duplicate text lines, and filenames if used, from standard input or file list
+// Solution gist used from: https://gist.github.com/limingjie/be429b2eb2c48795f32522337bfd5a1d
 package main
 
 import (
